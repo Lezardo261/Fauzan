@@ -1,0 +1,119 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+.header {
+  background-color: #2196F3; /* Warna biru yang bagus */
+  padding: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main styles */
+.main {
+  padding: 40px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2196F3; /* Warna biru yang bagus */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0D47A1; /* Warna biru yang lebih gelap saat di-hover */
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.feature {
+  text-align: center;
+  width: 30%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feature i {
+  font-size: 48px;
+  color: #2196F3; /* Warna biru yang bagus */
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 16px;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #2196F3; /* Warna biru yang bagus */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}

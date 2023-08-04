@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        /* Reset default margin and padding */
+        body, html {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f1f1f1;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            margin-left: 190px;
+            text-align: center;
+        }
+
+        /* Sidebar styles */
+        .sidebar {
+            background-color: #222;
+            color: #fff;
+            width: 200px;
+            padding: 1rem;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        .sidebar h2 {
+            margin-top: 0;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #444;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar li {
+            margin-bottom: 1rem;
+        }
+
+        .sidebar a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            padding: 0.5rem;
+        }
+
+        .sidebar a:hover {
+            background-color: #444;
+        }
+
+        /* Main content styles */
+        .main-content {
+            margin-left: 250px;
+            padding: 1rem;
+        }
+
+        .main-content h1 {
+            margin-top: 0;
+        }
+
+        /* Media Queries for responsiveness */
+        @media screen and (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                position: static;
+            }
+
+            .main-content {
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dashboard</h1>
+    </header>
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Messages</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1>Welcome to the Dashboard</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id ligula eu est rhoncus tincidunt. Sed at est
+            quis odio dignissim tincidunt. Curabitur pellentesque id quam in mattis. Fusce vitae purus ut nunc volutpat
+            consequat non eget elit. Vestibulum at quam at elit malesuada efficitur. Nulla facilisi. Nam dictum nunc sit
+            amet erat dictum, ut dignissim velit fermentum.</p>
+    </div>
+</body>
+</html>
